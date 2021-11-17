@@ -23,4 +23,11 @@ set DB_PASSWORD=secretP4ssword
 set DB_HOST=localhost
 ```
 
+The following will probably do it for PowerShell:
+```
+$Env:DB_USERNAME="root"
+$Env:DB_PASSWORD="secretP4ssword"
+$Env:DB_HOST="localhost"
+```
+
 Now run (in the same shell that you set up the environment variables in) using VS Code.

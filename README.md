@@ -23,8 +23,4 @@ set DB_PASSWORD=secretP4ssword
 set DB_HOST=localhost
 ```
 
-Now run (in the same shell that you set up the environment variables in):
-```
-mvn package
-mvn exec:java
-```
+Now run (in the same shell that you set up the environment variables in) using VS Code.
